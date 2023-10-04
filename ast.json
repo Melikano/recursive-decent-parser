@@ -1,0 +1,40 @@
+{
+  "kind": "E",
+  "left": {
+    "kind": "T",
+    "left": { "kind": "F", "value": 2 },
+    "right": { "kind": "T_" }
+  },
+  "right": {
+    "kind": "E_",
+    "right": {
+      "kind": "T",
+      "left": { "kind": "F", "value": 3 },
+      "right": {
+        "kind": "T_",
+        "right": {
+          "kind": "F",
+          "right": {
+            "kind": "E",
+            "left": {
+              "kind": "T",
+              "left": { "kind": "F", "value": 10 },
+              "right": { "kind": "T_" }
+            },
+            "right": {
+              "kind": "E_",
+              "right": {
+                "kind": "T",
+                "left": { "kind": "F", "value": 3 },
+                "right": { "kind": "T_" }
+              },
+              "left": { "kind": "E_" }
+            }
+          }
+        },
+        "left": { "kind": "T_" }
+      }
+    },
+    "left": { "kind": "E_" }
+  }
+}
